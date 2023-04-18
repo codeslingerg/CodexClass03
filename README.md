@@ -9,3 +9,8 @@
 ***Margin is used to push elements like text and numbers away from a box while padding moves elements away from the boxes border. The "ul" element allows for your items to be listed in no order. The "ol" elements orders your items in a fashion from top to bottom. The "li" elements lists all of your items within the array. The "span" element addresses unordered items in your list.***
 
 ## Arrays. Operators and Expressions. Conditionals. Loops.
+
+***String, numbers and objects can be stored in an array. Yes the "people" array is valid and you can access the values with "console.log" with a number in parentheses i.e. "0". ***
+
+
+## Things I want to know more about
