@@ -1,0 +1,86 @@
+// CLASS 03 -- ARRAYS
+// Please read through the code. Look for places where it says 'TODO'. These are the places where you want to add your own code to finish the program.
+
+// PART 1 -- BUILDING AN ARRAY
+// Let's build an array of names.
+
+// This in an empty array.
+let names = [];
+
+// Put a name on the array.
+names.push("Alice");
+names.push("John");
+names.push("Katy");
+names.push("Maria");
+names.push("Josue");
+names.push("Ty");
+names.push("Desiree");
+names.push("Arthur");
+names.push("Robert");
+names.push("Stefan");
+
+// Log it to the console.
+console.log(names[0]);
+console.log(names[1]);
+console.log(names[2]);
+console.log(names[3]);
+console.log(names[4]);
+console.log(names[5]);
+console.log(names[6]);
+console.log(names[7]);
+console.log(names[8]);
+console.log(names[9]);
+
+
+
+// TODO 1: Put 9 more names on the array for a total of 10. DONE!
+// TODO 2: log them to the console. DONE!
+
+
+// There should now be 10 names.
+console.log(`Now there are ${names.length} names in the array.`);
+
+// Let's say hi to each person using string interpolation.
+console.log(`Hi, ${names[0]}. How are you?`)
+// TODO 3: Say hi to each person.
+console.log(`Hi, ${names[1]}. How are you?`)
+console.log(`Hi, ${names[2]}. How are you?`)
+console.log(`Hi, ${names[3]}. How are you?`)
+console.log(`Hi, ${names[4]}. How are you?`)
+console.log(`Hi, ${names[5]}. How are you?`)
+console.log(`Hi, ${names[6]}. How are you?`)
+console.log(`Hi, ${names[7]}. How are you?`)
+console.log(`Hi, ${names[8]}. How are you?`)
+console.log(`Hi, ${names[9]}. How are you?`)
+
+
+// PART TWO -- LOOPS
+// Let's loop through the array.
+for(let name of names) {
+  // TODO 4: Say hi to each person again.
+  // This time use a loop.
+  console.log(`Hi, ${name}`);
+}
+
+// TODO 5: Now say good-bye to each person using a loop.
+for(let name of names) {
+  console.log(`Good-bye, ${name}`);
+}
+
+console.log("Good-bye".length > 4);
+
+
+
+
+
+
+
+// BONUS TODO: 
+// Say hi in Spanish to only people in the array whose name is longer than 5 characters long.
+console.log(`¿Qué tal? , ${names[0]}`)
+console.log(`¿Qué tal? , ${names[4]}`)
+console.log(`¿Qué tal? , ${names[3]}`)
+console.log(`¿Qué tal? , ${names[6]}`)
+console.log(`¿Qué tal? , ${names[7]}`)
+console.log(`¿Qué tal? , ${names[8]}`)
+console.log(`¿Qué tal? , ${names[9]}`)
