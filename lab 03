@@ -1,0 +1,15 @@
+'use strict';
+
+let response;
+
+response = prompt("What's on your mind?");
+console.log("You said" + response);
+
+let count;
+count = 0;
+while(count < 3 && response !== "Goodbye"){
+  response = prompt("That's amazing! Tell me more.")
+  console.log("You said: " + response);
+  count= count + 1;
+  console.log("count: " + count)
+  }
