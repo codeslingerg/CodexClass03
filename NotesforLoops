@@ -1,0 +1,22 @@
+'use strict'
+
+// declare a variable
+let userName;
+
+// assign a value to the userName from prompt
+userName = prompt("What is your name?")
+console.log("Hello, " + userName);
+
+let answer;
+let correctAnswer = "answer";
+let count;
+let question = "What is my favorite food?";
+
+answer = prompt(userName + question);
+
+// TODO: check if answer is correct
+if(false) {
+  console.log("You are right, " + userName);
+} else {
+  console.log("You are wrong, " + userName);
+  }
