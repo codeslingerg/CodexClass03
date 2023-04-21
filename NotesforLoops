@@ -1,5 +1,7 @@
 'use strict'
 
+// semantic variable names
+
 // declare a variable
 let userName;
 
@@ -8,15 +10,53 @@ userName = prompt("What is your name?")
 console.log("Hello, " + userName);
 
 let answer;
-let correctAnswer = "answer";
+let correctAnswer = "Cachapas";
 let count;
 let question = "What is my favorite food?";
+
+//While loop
+// x
+//repeat whiule (x === true)
+// stop when (x === false)
+
+while(true) {
+  answer = prompt(question);
+  if(answer === correctAnswer) {
+    console.log("You are right.");
+  } else {
+    console.log("You are wrong.");
+  }
+  x = false
+}
 
 answer = prompt(userName + question);
 
 // TODO: check if answer is correct
-if(false) {
-  console.log("You are right, " + userName);
+answer = prompt(question);
+if(answer === correctAnswer) {
+  console.log("You are right.");
 } else {
-  console.log("You are wrong, " + userName);
-  }
+  console.log("You are wrong.");
+}
+
+answer = prompt(question);
+if(answer === correctAnswer) {
+  console.log("You are right.");
+} else {
+  console.log("You are wrong.");
+}
+
+answer = prompt(question);
+if(answer === correctAnswer) {
+  console.log("You are right.");
+} else {
+  console.log("You are wrong.");
+}
+
+answer = prompt(question);
+if(answer === correctAnswer) {
+  console.log("You are right.");
+} else {
+  console.log("You are wrong.");
+}
+
